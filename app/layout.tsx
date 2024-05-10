@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   // viewport:
     // "initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
   icons: [
-    { rel: "apple-touch-icon", url: "icons/icon-128x128.png" },
-    { rel: "icon", url: "icons/icon-128x128.png" },
+    { rel: "apple-touch-icon", url: "/apple-touch-icon.svg" },
+    { rel: "icon", url: "/vercel.svg" },
   ],
 };
 
