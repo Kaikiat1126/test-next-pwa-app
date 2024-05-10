@@ -15,16 +15,13 @@ export const metadata: Metadata = {
   generator: "Next.js",
   manifest: "/manifest.json",
   keywords: ["nextjs", "nextjs13", "next13", "pwa", "next-pwa"],
-  // themeColor: [{ media: "(prefers-color-scheme: dark)", color: "#fff" }],
-  authors: [
-    { name: "Tyu Kai Kiat" },
-  ],
-  // viewport:
-    // "initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
-  icons: [
-    { rel: "apple-touch-icon", url: "/apple-touch-icon.svg" },
-    { rel: "icon", url: "/vercel.svg" },
-  ],
+  // authors: [
+  //   { name: "Tyu Kai Kiat" },
+  // ],
+  // icons: [
+  //   { rel: "apple-touch-icon", url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" },
+  //   { rel: "icon", url: "/vercel.svg", type: "image/svg+xml", sizes: "any" },
+  // ],
 };
 
 const viewport: Viewport = {
@@ -42,6 +39,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/vercel.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180"></link>
+      </head>
       <body className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable

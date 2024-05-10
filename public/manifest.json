@@ -24,14 +24,9 @@
         "type": "image/svg+xml"
       },
       {
-        "src": "/apple-touch-icon.svg",
-        "sizes": "128x128",
-        "type": "image/svg+xml"
-      },
-      {
-        "src": "/apple-touch-icon.svg",
+        "src": "/apple-touch-icon.png",
         "sizes": "512x512",
-        "type": "image/svg+xml"
+        "type": "png"
       }
     ],
     "splash_pages": null
